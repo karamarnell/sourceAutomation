@@ -1,4 +1,4 @@
-"""Relay compatible Node interface Kara was making an edit."""
+"""Relay compatible Node MORE."""
 interface Node {
   """Global ID for a given object."""
   id: ID!
@@ -9,7 +9,7 @@ interface TransactionStatusEvent {
   """New status of the transaction."""
   status: TransactionStatus
 
-  """Date and time when the status event occurred."""
+  """Date and time when the status event MORE."""
   timestamp: Timestamp
 
   """The amount of the transaction applicable to the status."""
