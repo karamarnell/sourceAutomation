@@ -1,10 +1,10 @@
-"""Relay compatible Node interface."""
+"""Relay compatible Node interface MAKE AN EDIT."""
 interface Node {
   """Global ID for a given object."""
   id: ID!
 }
 
-"""Status event in the lifecycle of a transaction."""
+"""Status event in the lifecycle of a transaction CHANGE."""
 interface TransactionStatusEvent {
   """New status of the transaction."""
   status: TransactionStatus
