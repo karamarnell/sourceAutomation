@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddReimderTitle" xml:space="preserve">
+    <value>Add reminder</value>
+  </data>
+  <data name="AddReminder" xml:space="preserve">
+    <value>Add Reminder</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>BODY</value>
+  </data>
+  <data name="BodyTagInserstionError" xml:space="preserve">
+    <value>Quickbooks could't selected field into email body. Please try again.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CheckSpelling" xml:space="preserve">
+    <value>Check spelling</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="DiscardChanges" xml:space="preserve">
+    <value>Do you want to discard changes?</value>
+  </data>
+  <data name="DiscardReminder" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>due date</value>
+  </data>
+  <data name="DuplicateMailListName" xml:space="preserve">
+    <value>You already have a mailing list with this name.</value>
+  </data>
+  <data name="EditReminderTitle" xml:space="preserve">
+    <value>Edit reminder</value>
+  </data>
+  <data name="EditScheduleTitle" xml:space="preserve">
+    <value>Edit schedule name</value>
+  </data>
+  <data name="EmailListOpenError" xml:space="preserve">
+    <value>QuickBooks could not open this page. Try again.</value>
+  </data>
+  <data name="EnterBody" xml:space="preserve">
+    <value>Enter body.</value>
+  </data>
+  <data name="EnterDays" xml:space="preserve">
+    <value>Enter number of days.</value>
+  </data>
+  <data name="EnterMailListName" xml:space="preserve">
+    <value>Enter a mailing list name.</value>
+  </data>
+  <data name="EnterSubject" xml:space="preserve">
+    <value>Enter subject.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="MailListAssociatedToReminderSet" xml:space="preserve">
+    <value>This mailing list is selected for one or more schedules and can't be deleted. Remove this mailing list from the schedule and try again.</value>
+  </data>
+  <data name="MailListDeleteError" xml:space="preserve">
+    <value>QuickBooks couldn't delete this mail list. Try again.</value>
+  </data>
+  <data name="MailListDeleteWarning" xml:space="preserve">
+    <value>Do you want to delete this mailing list?</value>
+  </data>
+  <data name="MailListOpenFailed" xml:space="preserve">
+    <value>QuickBooks could not open this window. Try again.</value>
+  </data>
+  <data name="MaxScheduleMessage" xml:space="preserve">
+    <value>You can't add more than {0} schedules. Delete an existing schedule to create a new one.</value>
+  </data>
+  <data name="Newschedule" xml:space="preserve">
+    <value>New schedule</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PaymentReminders" xml:space="preserve">
+    <value>Payment reminders</value>
+  </data>
+  <data name="PaymentRemindersOpenFailed" xml:space="preserve">
+    <value>QuickBooks can’t open Payment reminders at the moment. Try again.</value>
+  </data>
+  <data name="ReminderDeleteError" xml:space="preserve">
+    <value>QuickBooks couldn't delete this reminder. Try again.</value>
+  </data>
+  <data name="ReminderDeleteWarning" xml:space="preserve">
+    <value>Do you want to delete this reminder?</value>
+  </data>
+  <data name="ReminderOpenError" xml:space="preserve">
+    <value>QuickBooks could not open this window. Try again.</value>
+  </data>
+  <data name="ReminderSaveError" xml:space="preserve">
+    <value>QuickBooks couldn’t save this reminder. Try again.</value>
+  </data>
+  <data name="ReminderserAddError" xml:space="preserve">
+    <value>QuickBooks could not add new schedule. Try again.</value>
+  </data>
+  <data name="ReminderSetSaveError" xml:space="preserve">
+    <value>QuickBooks couldn't save one or more schedules. Try again.</value>
+  </data>
+  <data name="ReminderAfterDueDateTemplateBody" xml:space="preserve">
+    <value>Dear [Name-First-Last],
+
+Just a reminder that we haven't received a payment for your invoice-[Transaction-Number] for [Transaction-Total]. Let us know if you have any questions.
+
+Thank you for your business, we appreciate it very much.
+
+Sincerely,
+[Company-Name]
+
+[Company-Telephone]
+[Company-Website]</value>
+  </data>
+  <data name="ReminderBeforeDueDateTemplateBody" xml:space="preserve">
+    <value>Hi [Name-First-Last],
+
+This is just a quick reminder that invoice [Transaction-Number] will be due on [Due-Date].
+We look forward to receiving your payment. Let us know if you have any questions.
+
+Thanks again for your business!
+
+Sincerely,
+[Company-Name]
+
+[Company-Telephone]
+[Company-Website]</value>
+  </data>
+  <data name="ReminderTemplateSubject" xml:space="preserve">
+    <value>Reminder: Invoice &lt;NUM&gt; from [Company-Name]</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ScheduleDeleteError" xml:space="preserve">
+    <value>QuickBooks couldn't delete this schedule. Try again.</value>
+  </data>
+  <data name="ScheduleDeleteWarning" xml:space="preserve">
+    <value>Note that all reminders for this schedule will be removed when you delete the schedule. Do you want to continue?</value>
+  </data>
+  <data name="ScheduleName" xml:space="preserve">
+    <value>Schedule name</value>
+  </data>
+  <data name="ScheduleWindowTitle" xml:space="preserve">
+    <value>Schedule payment reminders</value>
+  </data>
+  <data name="SelectOneCustomer" xml:space="preserve">
+    <value>Select atleast one customer</value>
+  </data>
+  <data name="SendReminderTo" xml:space="preserve">
+    <value>Send reminder to</value>
+  </data>
+  <data name="SendThisReminder" xml:space="preserve">
+    <value>Send this reminder</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>SUBJECT</value>
+  </data>
+  <data name="SubjectTagInserstionError" xml:space="preserve">
+    <value>Quickbooks could't selected field into subject body. Try again.</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="WhatShouldEmailSay" xml:space="preserve">
+    <value>What should the email say?</value>
+  </data>
+  <data name="WhenDoYouSendReminder" xml:space="preserve">
+    <value>When do you want to send this reminder?</value>
+  </data>
+  <data name="WhenInvoiceIs" xml:space="preserve">
+    <value>when an invoice is...</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>due date</value>
+  </data>
+  <data name="AddMailingList" xml:space="preserve">
+    <value>Add mailing list</value>
+  </data>
+  <data name="AvgDaystopay" xml:space="preserve">
+    <value>Avg days to pay</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Entername" xml:space="preserve">
+    <value>Enter name</value>
+  </data>
+  <data name="ListName" xml:space="preserve">
+    <value>List Name:</value>
+  </data>
+  <data name="MAILINGLIST" xml:space="preserve">
+    <value>MAILING LIST :</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NoCustomersSelected" xml:space="preserve">
+    <value>No customers selected</value>
+  </data>
+  <data name="OverdueBalance" xml:space="preserve">
+    <value>Overdue Balance</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="SelectedCustomers" xml:space="preserve">
+    <value>Selected customers</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="TYPESelection" xml:space="preserve">
+    <value>TYPE:</value>
+  </data>
+  <data name="WhatWouldYouCallGroup" xml:space="preserve">
+    <value>What would you like to call this mailing list?</value>
+  </data>
+  <data name="WhichCustomerShouldBePart" xml:space="preserve">
+    <value>Which customers do you want to add to this mailing list?</value>
+  </data>
+  <data name="Yearsascustomer" xml:space="preserve">
+    <value>Years as customer</value>
+  </data>
+  <data name="MailinglistName" xml:space="preserve">
+    <value>Mailing list</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Terms</value>
+  </data>
+  <data name="Unlistedcustomers" xml:space="preserve">
+    <value>&lt; Unlisted customers &gt;</value>
+  </data>
+  <data name="Allcustomers" xml:space="preserve">
+    <value>&lt; All customers &gt;</value>
+  </data>
+  <data name="RecentlyAddedcustomers" xml:space="preserve">
+    <value>&lt; Recently added &gt;</value>
+  </data>
+  
+  <data name="AllcustomersGroupName" xml:space="preserve">
+    <value>Allcustomers</value>
+  </data>
+   <data name="RecentcustomersGroupName" xml:space="preserve">
+    <value>Recentcustomers</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="CouldNotGetCustomers" xml:space="preserve">
+    <value>QuickBooks couldn't fetch your customer details. Try again.</value>
+  </data>
+  <data name="OutOfMemory" xml:space="preserve">
+    <value>It looks like your system ran out of memory. Close the Add mailing list window and try again. If you keep seeing this message, try restarting QuickBooks.</value>
+  </data>
+  <data name="DescriptionHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DotShowAgain" xml:space="preserve">
+    <value>Don't show this again</value>
+  </data>
+  <data name="ListNameHeader" xml:space="preserve">
+    <value>List name</value>
+  </data>
+  <data name="LoadingCustomers" xml:space="preserve">
+    <value>Hold on. We're fetching your customer details.</value>
+  </data>
+  <data name="MailListSaveError" xml:space="preserve">
+    <value>QuickBooks couldn’t save this mailing list. Try again.</value>
+  </data>
+  <data name="MoreCustomersPartOfOtherMailList" xml:space="preserve">
+    <value>One or more customers are part of other mailing lists. Do you want to move them to this mailing list?</value>
+  </data>
+  <data name="Newlist" xml:space="preserve">
+    <value>New list</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="OneCustomersPartOfOtherMailList" xml:space="preserve">
+    <value>This  customers is part of other mailing lists. Do you want to move it to this mailing list?</value>
+  </data>
+  <data name="Reminderemaillist" xml:space="preserve">
+    <value>Mailing List</value>
+  </data>
+  <data name="SelectCustomer" xml:space="preserve">
+    <value>Select customers</value>
+  </data>
+  <data name="ZeroStateGetStarted" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="ZeroStateScreenTextFirstLine" xml:space="preserve">
+    <value>Chasing payments with your customers can be exhausting. With Payment Reminders,</value>
+  </data>
+  <data name="ZeroStateScreenTextSecondLine" xml:space="preserve">
+    <value>schedule, review and send reminders to your customers, effortlessly.</value>
+  </data>
+  <data name="ZeroStateScreenTitle" xml:space="preserve">
+    <value>Work takes time. Chasing payments shouldn't.</value>
+  </data>
+  <data name="DescriptionWaterMark" xml:space="preserve">
+    <value>Describe this mailing list</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="NameWaterMark" xml:space="preserve">
+    <value>E.g.. Late payers, Best customers etc.</value>
+  </data>
+  <data name="SearchWatermark" xml:space="preserve">
+    <value>Find a customer</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="LoadingPleaseWait" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="ReminderTemplateSubjectCompNameTag" xml:space="preserve">
+    <value>[Company-Name]</value>
+  </data>
+  <data name="DuplicateScheduleName" xml:space="preserve">
+    <value>One or more reminder schedules have the same name. Update the duplicate names and try again.</value>
+  </data>
+  <data name="EmptyScheduleName" xml:space="preserve">
+    <value>Schedule name can't be empty</value>
+  </data>
+  <data name="SelectMailingList" xml:space="preserve">
+    <value>Select mailing list</value>
+  </data>
+  <data name="TargetGroupAssociate" xml:space="preserve">
+    <value>One or more reminder sets do not have a mailing list. Select mailing list in order to save a reminder set.</value>
+  </data>
+  <data name="DiscardReminderScheduleChanges" xml:space="preserve">
+    <value>You have unsaved changes for some reminder schedules. If you proceed, your changes will be discarded. Do you still want to continue?</value>
+  </data>
+  <data name="ReminderDays" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+</root>
